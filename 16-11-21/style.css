@@ -1,0 +1,194 @@
+body {
+    width: 100%;
+    background: #f7f7f7;
+    overflow-x: hidden;
+    font-family: 'Circular Std', sans-serif;
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar-heading {
+    font-family: 'Circular Std', sans-serif;
+}
+
+.navbar {
+    margin: -20px -5px 0px -5px;
+    padding: 0px 5px 0px 5px;
+    position: sticky;
+    top: 0px;
+    max-width: 100%;
+    border-bottom: 2px solid #dbdada;
+    background-color: #fff;
+}
+
+.navbar-container {
+    max-width: 100%;
+}
+
+.navbar-row {
+    display: flex;
+}
+
+.navbar-logo {
+    width: 13%;
+    text-align: center;
+    padding: 15px 0px 0px 10px;
+}
+
+.navbar-logo-img {
+    margin: 8px 0px 0px 0px;
+    max-width: 35px;
+}
+
+.navbar-menubar {
+    width: 4%;
+    text-align: center;
+    padding: 15px 0px 0px 5px;
+}
+
+.navbar-menubar img {
+    margin: 14px 0px 0px 0px;
+    width: 45%;
+}
+
+.navbar-heading {
+    width: 42%;
+    color: rgb(87, 87, 87);
+}
+
+.navbar-heading h3 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.navbar-search {
+    width: 15%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.navbar-search-row {
+    display: flex;
+    color: #acacac;
+    border-radius: 50px;
+    border: 1px solid #acacac;
+    padding: 4px;
+}
+
+.navbar-search-input {
+    width: 90%;
+}
+
+.navbar-search-input-element {
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar-search-icon {
+    margin-top: 2px;
+}
+
+.navbar-language {
+    transition: 0.3s;
+}
+
+.navbar-language:hover {
+    background: #d6d6d6;
+}
+
+.navbar-language-row {
+    display: flex;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+}
+
+.navbar-language-flag {
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.navbar-language-flag img {
+    width: 100%;
+}
+
+.navbar-language-text {
+    width: 60%;
+}
+
+.navbar-language-text h4 {
+    color: rgb(87, 87, 87);
+    font-weight: 400;
+}
+
+.navbar-language-dropdown-icon {
+    width: 20%;
+}
+
+.navbar-language-dropdown-icon svg {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: -10px;
+}
+
+.navbar-notification {
+    width: 3%;
+    padding-top: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navbar-notification:hover {
+    background: #d6d6d6;
+}
+
+.navbar-notification img {
+    width: 90%;
+}
+
+.navbar-msg {
+    width: 3%;
+    padding-top: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navbar-msg:hover {
+    background: #d6d6d6;
+}
+
+.navbar-msg img {
+    width: 90%;
+}
+
+.navbar-admin:hover {
+    background: #d6d6d6;
+}
+
+.admin-img {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.admin-img img {
+    width: 75%;
+}
+
+.admin-text {
+    width: 40%;
+}
+
+.admin-icon {
+    width: 10%;
+}
+
+.admin-icon svg {
+    padding-left: 15px;
+}
