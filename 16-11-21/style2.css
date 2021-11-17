@@ -239,6 +239,10 @@ nav {
 
 /* Sidebar Scrollbar css */
 
+.container {
+    overflow: hidden;
+}
+
 .sidebar {
     overflow-x: hidden;
     background: #fff;
@@ -247,7 +251,11 @@ nav {
     margin-top: 12px;
     margin-left: 0px;
     border-right: 1px solid #dbdada;
+    overflow: hidden;
 }
+
+
+/* aD */
 
 .sidebar h5 {
     color: #acacac;
@@ -260,8 +268,12 @@ nav {
     margin: 6px 0px 6px 8px;
 }
 
-.dashboard-container:hover {
-    background-color: #fcd9bb;
+.sidebar-items {
+    transition: 0.3s;
+}
+
+.sidebar-items:hover {
+    background-color: #ffb778;
 }
 
 .side-items-icon {
